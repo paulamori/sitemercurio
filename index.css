@@ -1,8 +1,135 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Uncial+Antiqua&display=swap');
+body{
+    background-color: #F8F9FA;
+    color: #343A40;
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 600;
 }
-body {
+
+h1{
     text-align: center;
-    background-color: azure;
+    color: #f9f8fa ;
+    margin-bottom: 0%;
+    background-color: #343A40;
+    padding: 2%;
+    border-bottom:3px solid #1c2638;
+    padding-bottom: 0%;
+    font-family: "Uncial Antiqua", sans-serif;
+    font-size: 40px;
+}
+
+
+.subtitulo{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #adb5bd;
+    color: #343A40;
+    
+    
+}
+
+.containerPrincipal{
+    display: flex;
+    gap: 16px;
+}
+
+nav{
+    height: 200px;
+    width: 150px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 100px;
+    padding-top: 40px;
+    padding-right: 20px;
+    background-color: #343A40;
+    border-radius: 0 0 8px 8px;
+    
+}
+
+nav ul{
+    list-style: none; 
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: #F8F9FA;
+    display: inline-block;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+nav a:hover{
+    color: #e67e22;
+    display: inline-block;
+    transform: scale(1.03);
+}
+
+nav a:visited{
+    color: #ADB5BD;
+
+    display: inline-block;
+    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #dcdee0;
+    margin-top: 5px;
+    padding: 20px; /* Espaço interno */
+    border-radius: 8px; /* Cantos arredondados */
+
+    /* Sombra suave para dar profundidade */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+}
+img{
+    width: 290px;
+    transition: all 0.3s ease;
+}
+img:hover {
+    transform: scale(1.05); /* Cresce 5% */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+p{
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+.imgprincipal{
+    display: flex;
+    justify-content: center; /* Centraliza imagens na linha */
+    flex-wrap: wrap;         /* Permite quebrar linha */
+    gap: 10px;
+}
+
+#cosmetico,#alquimista{
+    width: 500px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    color: #f9f8fa ;
+    padding: 0px;
+    margin: 0px;
+    background-color: #343A40;
+}
+footer a{
+    text-decoration: none;
+    color: #F8F9FA;
+    display: inline-block;
+    font-weight: bolder;
+    
+}
+
+footer a:hover{
+    color: #e67e22;
+    display: inline-block;
+    
 }
