@@ -2,17 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Uncial+Antiqua&display=swap');
 
 body{
-    background-color: #F8F9FA;
-    color: #343A40;
+    background: linear-gradient(rgba(22, 5, 48,2.0),rgba(81, 73, 100, 0.4)), 
+                url('../imagens/liquido.jpg');
     font-family: "Cormorant Unicase", serif;
     font-weight: 600;
+    background-size: cover;          
+    background-position: center;      
+    background-attachment: fixed;    
+    background-repeat: no-repeat;     
 }
 
 h1{
     text-align: center;
-    color: #f9f8fa ;
+    color: #ffecd6 ;
     margin-bottom: 0%;
-    background-color: #343A40;
+    background-color: #0d2b45;
     padding: 2%;
     border-bottom:3px solid #1c2638;
     padding-bottom: 0%;
@@ -44,7 +48,7 @@ nav{
     top: 100px;
     padding-top: 40px;
     padding-right: 20px;
-    background-color: #343A40;
+    background-color: #0d2b45;
     border-radius: 0 0 8px 8px;
     
 }
@@ -81,13 +85,28 @@ main{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: #dcdee0;
     margin-top: 5px;
     padding: 20px; 
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     
 }
+
+#pagina1{
+    background-color: #ffecd6;
+}
+
+#pagina2{
+    background-color: #0d2b45;
+    color: #ffdab9;
+}
+
+#pagina3{
+    background-color: #8d697a;
+    color: #ffffff;
+}
+
+
 img{
     width: 290px;
     transition: all 0.3s ease;
@@ -112,26 +131,21 @@ p{
     width: 500px;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    color: #f9f8fa ;
-    padding: 0px;
-    margin: 0px;
+footer {
+    margin-top: 10px;      
     background-color: #343A40;
-}
-footer a{
-    text-decoration: none;
-    color: #F8F9FA;
-    display: inline-block;
-    font-weight: bolder;
+    color: #f9f8fa;
+    padding: 20px 20px;    
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 10px;             
 }
-
-footer a:hover{
-    color: #e67e22;
-    display: inline-block;
-    
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
 }
 
 

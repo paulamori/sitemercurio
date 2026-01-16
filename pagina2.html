@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historias</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     
@@ -17,13 +18,14 @@
     <h2 class="subtitulo">Um importante personagem na história humana</h2>
     <div class="containerPrincipal">
         <nav>
-            <ul>
-                <li><a href="index.html" >Página principal</a></li>
-                <li><a href="pagina3.html" >Aplicações e perigos do mercurio</a></li>
+             <ul>
+                <li><a href="index.html" >Página inicial</a></li>
+                <li><a href="pagina1.html" >O que é mercúrio?</a></li>
+                <li><a href="pagina3.html" >A toxicidade do mercúrio</a></li>
             </ul>
         </nav>
 <br>
-    <main>
+    <main id="pagina2" data-aos="fade-left">
 
         <!--Seção onde vou explicara história do primeiro imperador da china com o mercurio-->
 
@@ -62,8 +64,23 @@
     </main>
     </div>
     <br>
-    <footer>
-        <p>Saiba mais sobre outros elementos <a href="https://pt.wikipedia.org/wiki/Elemento_(qu%C3%ADmica)" target="_blank">aqui</a></p>
-     </footer>
+    <footer data-aos="zoom-in">
+        <p>Quer saber mais sobre elementos quiímicos? Assine nossa Newsletter!</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text">
+
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+
+            <button id="botaoEnviar">Enviar</button>
+        </form>
+        <p>Site criado por Paula. 2025-2026</p>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+         AOS.init();
+        </script>
+        <script src="./js/script.js"></script>
+</body>
 </body>
 </html>

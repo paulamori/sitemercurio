@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Uncial+Antiqua&display=swap');
+
+body{
+    background: linear-gradient(rgba(22, 5, 48,2.0),rgba(81, 73, 100, 0.4)), 
+                url('../imagens/liquido.jpg');
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 600;
+    background-size: cover;          
+    background-position: center;      
+    background-attachment: fixed;    
+    background-repeat: no-repeat;     
+}
+
+h1{
+    text-align: center;
+    color: #ffecd6 ;
+    margin-bottom: 0%;
+    background-color: #0d2b45;
+    padding: 2%;
+    border-bottom:3px solid #1c2638;
+    padding-bottom: 0%;
+    font-family: "Uncial Antiqua", sans-serif;
+    font-size: 40px;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;            
+    padding: 20px;
+    
+}
+img{
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    background-color: #ffaa5e;
+}
+
+
+.menuprincipal {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 40px; 
+    background-color: #dadee2;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;     
+    border-radius: 8px;
+}
+
+.texto {
+    flex: 0 1 50%;
+    min-width: 300px;
+    overflow-wrap: break-word;
+    gap: 3px;
+    font-size: 1.9em;
+}
+
+.texto h2 {
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+.texto p {
+    margin-top: 0;    
+    padding-top: 0;
+    line-height: 1.2; 
+}
+
+.imagem {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.imagem img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+/* A primeira div .menuprincipal */
+.menuprincipal:nth-of-type(1) {
+    background-color: #544e68; 
+    color: #ffecd6;
+}
+
+/* A segunda div .menuprincipal  */
+.menuprincipal:nth-of-type(2) {
+    background-color: #ffd4a3;
+    color: #0d2b45;
+}
+
+/* A terceira div .menuprincipal */
+.menuprincipal:nth-of-type(3) {
+    background-color: #203c56; 
+    color: #ffecd6;
+}
+
+/* A quarta div .menuprincipal */
+.menuprincipal:nth-of-type(4) {
+    background-color: #8d697a ; 
+    color: #ffffff;
+}
+
+button{
+    background-color: #343A40;
+    color: #F8F9FA;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: #d08159;
+    color:#ffffff;
+}
+
+#botaoEnviar{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #8d697a;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+
+footer {
+    margin-top: 10px;      
+    background-color: #343A40;
+    color: #f9f8fa;
+    padding: 20px 20px;    
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 10px;             
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+
+ 
+}
+
+
+
+
+/* Ajustes para Celulares e Tablets */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+        padding: 5% 2%;
+    }
+
+    .menuprincipal {
+        flex-direction: column; 
+        text-align: center;     
+        gap: 20px;
+        padding: 15px;
+        width: 95%;            
+    }
+
+    .texto {
+        flex: unset;            
+        width: 100%;
+        min-width: 0;
+        font-size: 1.2em;      
+        order: 1;              
+    }
+
+    .imagem {
+        width: 100%;
+        justify-content: center; 
+        order: 2;               
+    }
+
+    .imagem img {
+        max-width: 90%;         
+        margin: 0 auto;
+    }
+
+   
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
