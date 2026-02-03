@@ -1,4 +1,4 @@
-![Mercury](https://commons.wikimedia.org/wiki/File:Maximum_thermometer_close_up_2.JPG#mw-jump-to-license)
+[Mercury](https://commons.wikimedia.org/wiki/File:Maximum_thermometer_close_up_2.JPG#mw-jump-to-license)
 
 # Mercúrio
 
