@@ -1,6 +1,6 @@
 ![Mercury](https://upload.wikimedia.org/wikipedia/commons/d/d0/Maximum_thermometer_close_up_2.JPG)
 
-# Mercúrio
+# Mercúrio 🧪
 
 Um elemento que evoca misticismo e mistério agora em um site próprio para elucidar toda a sua importância na história humana.
 
